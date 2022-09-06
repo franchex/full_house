@@ -1,0 +1,6 @@
+<%= form_with(model: @shopping_list, class: "mb-7") do |form| %>
+  <div class="mb-5">
+    <%= form.text_field :name %>
+    <%= form.submit "Save" %>
+  </div>
+<% end %>

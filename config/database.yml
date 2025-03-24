@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: full_house_production
-  username: full_house
+  database: postgresql_full_house_vekf
+  username: postgresql_full_house_vekf_user
   password: <%= ENV["FULL_HOUSE_DATABASE_PASSWORD"] %>
